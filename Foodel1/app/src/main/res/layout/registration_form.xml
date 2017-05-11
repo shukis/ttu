@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registration_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pavel.foodel1.RegistrationForm"
+    android:background="@drawable/wood"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/registrationLayout">
+        <TextView
+            android:text="REGISTRATION"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:textSize="20dp"/>
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registrationLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:hint="Email"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:textColor="@color/fontColor"
+            android:textSize="20dp"
+            android:textColorHint="@color/fontColor"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/registrationEmail" />
+
+        <EditText
+            android:hint="@string/name"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:inputType="textCapWords"
+            android:textColor="@color/fontColor"
+            android:textSize="20dp"
+            android:textColorHint="@color/fontColor"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registrationEmail"
+            android:layout_alignStart="@+id/registrationEmail"
+            android:layout_marginTop="30dp"
+            android:id="@+id/registrationName" />
+
+        <EditText
+            android:hint="@string/surname"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:inputType="textCapWords"
+            android:textColor="@color/fontColor"
+            android:textSize="20dp"
+            android:textColorHint="@color/fontColor"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registrationName"
+            android:layout_alignStart="@+id/registrationName"
+            android:layout_marginTop="30dp"
+            android:id="@+id/registrationSurname" />
+
+        <EditText
+            android:hint="@string/city"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:inputType="textCapWords"
+            android:textSize="20dp"
+            android:textColor="@color/fontColor"
+            android:textColorHint="@color/fontColor"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registrationSurname"
+            android:layout_alignStart="@+id/registrationSurname"
+            android:layout_marginTop="30dp"
+            android:id="@+id/registrationCity" />
+
+        <EditText
+            android:hint="@string/address"
+            android:singleLine="true"
+            android:textColor="@color/fontColor"
+            android:inputType="textCapWords"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:textColorHint="@color/fontColor"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registrationCity"
+            android:layout_alignStart="@+id/registrationCity"
+            android:layout_marginTop="30dp"
+            android:id="@+id/registrationAddress" />
+
+        <EditText
+            android:hint="@string/password"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:textColor="@color/fontColor"
+            android:textColorHint="@color/fontColor"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_below="@+id/registrationAddress"
+            android:layout_alignStart="@+id/registrationAddress"
+            android:layout_marginTop="30dp"
+            android:id="@+id/registrationPassword" />
+
+        <EditText
+            android:hint="@string/repeat_password"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:textColor="@color/fontColor"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:textColorHint="@color/fontColor"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registrationPassword"
+            android:layout_alignStart="@+id/registrationPassword"
+            android:layout_marginTop="30dp"
+            android:id="@+id/registrationCheckPassword"
+            android:inputType="textPassword"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrate"
+            style="?android:textAppearanceSmall"
+            android:id="@+id/registrationButton"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

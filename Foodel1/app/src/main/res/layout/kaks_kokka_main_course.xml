@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kaks_kokka_main_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pavel.foodel1.kaksKokka.KaksKokkaMainCourse"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:text="@string/main_course"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/kaksKokkaMainCourse"
+        android:textSize="20dp"
+        android:layout_weight="0.10"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.50">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:text="@string/karulaugu_sparglisupp_lillkapsas_s_rtsuspargel_estragoni_li_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="10dp"
+                android:id="@+id/kaksKokkaMainCourse1" />
+
+            <CheckBox
+                android:text="@string/karamellistatud_lillkapsas_laabijuust_karamellv_i_vadakukaste_12"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/kaskKokkaMainCourse2" />
+
+            <CheckBox
+                android:text="@string/r_stitud_atlandi_tursk_l_kkekartul_hapukoor_ja_roheline_sibul_suitsuv_ikaste_16"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kaskKokkaMainCourse3" />
+
+            <CheckBox
+                android:text="@string/hiidlest_suhkruherned_b_arni_kaste_17"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/kaskKokkaMainCourse4" />
+
+            <CheckBox
+                android:text="@string/vutt_j_rveotsa_vutifarmist_varajane_porgand_kevadkapsas_porgandikaste_17"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kaskKokkaMainCourse5" />
+
+            <CheckBox
+                android:text="@string/aurukuklid_teryiaki_siga_v_rtsikas_kimchi_m_dar_igas_13"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kaskKokkaMainCourse6" />
+
+            <CheckBox
+                android:text="@string/antrekoot_laagerdatud_simmentali_t_ugu_veis_luu_dikaste_kuum_pannisalat_20"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/kaskKokkaMainCourse7" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.16">
+
+            <Button
+                android:text="@string/starters"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonMainKaksKokkaStarters" />
+            <Button
+                android:text="@string/desserts"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonMainKaksKokkaDesserts" />
+            <Button
+                android:text="@string/confirm"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonMainKaksKokkaPay" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

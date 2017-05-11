@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chedi_starters"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pavel.foodel1.chedi.ChediStarters"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/starters"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chediStarters"
+        android:textSize="20dp"
+        android:layout_weight="0.10" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.50">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:text="@string/dim_sum_i_valik_kreveti_kammkarbi_ja_kreveti_bambuse_t_idisega_12"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/chediStarter1" />
+
+            <CheckBox
+                android:text="@string/dim_sum_i_valik_seene_ja_k_giviljat_idisega_10"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/chediStarter2" />
+
+            <CheckBox
+                android:text="@string/taip_rane_salat_v_rske_tuunikalaga_18"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/chediStarter3" />
+
+            <CheckBox
+                android:text="@string/praetud_sinikrabid_punase_chilli_ja_karrilehtedega_15"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/chediStarter4" />
+
+            <CheckBox
+                android:text="@string/rnalt_frititud_kalmaar_chilli_ja_karrilehtedega"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/chediStarter5" />
+            <CheckBox
+                android:text="@string/kr_bedad_wasabi_krevetid_kreeka_p_hklitega"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chediStarter6" />
+
+            <CheckBox
+                android:text="@string/k_psetatud_hirveliha_dim_sum_id_12"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/chediStarter7" />
+
+            <CheckBox
+                android:text="@string/jasmiiniteega_suitsutatud_searibi_13"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/chediStarter9" />
+
+            <CheckBox
+                android:text="@string/t_iili_meriahvena_supp_13"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/chediStarter10" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.16">
+            <Button
+                android:text="@string/desserts"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersChediDessert" />
+            <Button
+                android:text="@string/main_course"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStarterschediMain" />
+            <Button
+                android:text="@string/confirm"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersChediPay" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

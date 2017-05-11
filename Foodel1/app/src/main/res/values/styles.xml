@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/fontColor</item>
+        <item name="android:textColor">@color/fontColor</item>
+        <item name="android:buttonTint">@color/fontColor</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">30</item>
+        <item name="android:textSize">17dp</item>
+        <item name="actionBarSize">40dp</item>
+        <item name="android:actionBarStyle">@style/ActionBarTheme</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+    <style name="ActionBarTheme" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@color/colorPrimaryDark</item>
+        <item name="android:actionOverflowButtonStyle">@color/blueAccent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+
+    </style>
+
+
+
+</resources>

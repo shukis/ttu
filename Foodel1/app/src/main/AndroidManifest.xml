@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pavel.foodel1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SingIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".chedi.Chedi" />
+        <activity android:name=".kolmSibulat.KolmSibulat" />
+        <activity android:name=".moon.Moon" />
+        <activity android:name=".truhvel.Truhvel" />
+        <activity android:name=".chedi.ChediStarters" />
+        <activity android:name=".chedi.ChediMainCourse" />
+        <activity android:name=".chedi.ChediDesserts" />
+        <activity android:name=".kolmSibulat.KolmSibulatStarters" />
+        <activity android:name=".kolmSibulat.KolmSibulatMainCourse" />
+        <activity android:name=".kolmSibulat.KolmSibulatDessert" />
+        <activity android:name=".kaksKokka.KaksKokkaStarters" />
+        <activity android:name=".kaksKokka.KaksKokkaMainCourse" />
+        <activity android:name=".kaksKokka.KaksKokkaDesserts" />
+        <activity android:name=".moon.MoonStarters" />
+        <activity android:name=".moon.MoonMainCourse" />
+        <activity android:name=".moon.MoonDesserts" />
+        <activity android:name=".truhvel.TruhvelMainCourse" />
+        <activity android:name=".truhvel.TruhvelStarters" />
+        <activity android:name=".truhvel.TruhvelDesserts" />
+        <activity android:name=".kaksKokka.KaksKokka" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegistrationForm" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Payment" />
+        <activity android:name=".OrderConfirmation" />
+        <activity android:name=".Delivery" />
+        <activity android:name=".DeleteProfile"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kolm_sibulat_main_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pavel.foodel1.kolmSibulat.KolmSibulatMainCourse"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:text="@string/main_course"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/kolmSibulatMainCourse"
+        android:textSize="20dp"
+        android:layout_weight="0.10"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.50">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <CheckBox
+                android:text="@string/v_rtsikas_bakla_aan_aedviljapuljong_t_illimoos_korea_porgand_ja_maitseroheline_10"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/kolmSibulatMainCourse1" />
+
+            <CheckBox
+                android:text="@string/soolakrevetid_kanapuljong_uputatud_muna_v_rske_kurk_ja_maitseroheline_10"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/kolmSibulatMainCourse2" />
+
+            <CheckBox
+                android:text="@string/pardi_confit_kanapuljong_uputatud_muna_marineeritud_aedviljad_ja_maitseroheline_10"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/kolmSibulatMainCourse3" />
+
+            <CheckBox
+                android:text="@string/mahlane_p_rsak_lg_kanapuljong_uputatud_muna_marineeritud_aedviljad_ja_maitseroheline_10"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kolmSibulatMainCourse4" />
+
+            <CheckBox
+                android:text="@string/veisefilee_kanapuljong_uputatud_muna_marineeritud_aedviljad_t_illimoos_ja_maitseroheline_10"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/fontColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kolmSibulatMainCourse5" />
+
+            <CheckBox
+                android:text="@string/jaapanip_rane_angers_ga_suitsuse_kartulip_ree_dijon_sinepi_ja_porgandikastmega_15"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/fontColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kolmSibulatMainCourse6" />
+
+            <CheckBox
+                android:text="@string/kergelt_p_letatud_siig_spinati_porrulaugu_ning_estragoni_v_ikastmega_17"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/kolmSibulatMainCourse7" />
+
+            <CheckBox
+                android:text="@string/kana_nitsel_peterselli_ja_k_slauguv_iga_p_rlkuskussi_ning_magusa_hernep_reega_12"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kolmSibulatMainCourse8" />
+
+            <CheckBox
+                android:text="@string/k_psetatud_pardifilee_mustjuure_br_sseli_kapsa_ning_kirsikreemiga_14"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kolmSibulatMainCourse9" />
+
+            <CheckBox
+                android:layout_marginTop="10dp"
+                android:text="@string/veisefilee_shiitake_seente_v_rtsika_bakla_aani_ja_teriyaki_kr_psuga_19"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kolmSibulatMainCourse10" />
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.16">
+
+        <Button
+            android:text="@string/starters"
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMainKolmSibulatStarters" />
+        <Button
+            android:text="@string/desserts"
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMainKolmSibulatDesserts" />
+        <Button
+            android:text="@string/confirm"
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMainKolmSibulatPay" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kolm_sibulat_dessert"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pavel.foodel1.kolmSibulat.KolmSibulatDessert"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="@string/desserts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kolmSibulatDesserts"
+        android:textSize="20dp"
+        android:layout_weight="0.10"
+        android:layout_marginTop="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.50">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:text="Vaniljemaitseline panna cotta vaarikamoosiga 4€"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="10dp"
+                android:id="@+id/kolmSibulatDesserts1" />
+
+            <CheckBox
+                android:text="Õrn astelpajukreem kookosepiima ja chia seemnetega 5€"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/kolmSibulatDesserts2" />
+
+            <CheckBox
+                android:text="Kirsikrõbedik portveini, mandlite ja kardemoniga 5€"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/kolmSibulatDesserts3" />
+
+            <CheckBox
+                android:text="Kolme Sibula tiramisu 6€"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kolmSibulatDesserts4" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.16">
+            <Button
+                android:text="@string/main_course"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonDessertKolmSibulatMain" />
+            <Button
+                android:text="@string/starters"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonDessertKolmSibulatStarters" />
+            <Button
+                android:text="@string/confirm"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonDessertKolmSibulatPay" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moon_starters"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pavel.foodel1.moon.MoonStarters"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/starters"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/moonStarters"
+        android:textSize="20dp"
+        android:layout_weight="0.10" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.50">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <CheckBox
+                android:text="@string/bor_veiselihaga_5"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/moonStarter1" />
+
+            <CheckBox
+                android:text="@string/uhhaa_erinevate_kaladega_6"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/moonStarter2" />
+
+            <CheckBox
+                android:text="@string/murmanski_pelmeenid_kodused_ja_suitsumakrelli_ning_hapukapsa_t_idisega_10"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/moonStarter3" />
+
+            <CheckBox
+                android:text="@string/siberi_pelmeenid_kodused_ja_kolmest_lihast_t_idisega_ning_seenepuljongis_10"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/moonStarter4" />
+
+            <CheckBox
+                android:text="@string/roheline_salat_r_stitud_kobartomatid_mandlid_ja_peedipesto_7"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/moonStarter5" />
+            <CheckBox
+                android:text="@string/puraviku_kulebjaaka_ahjus_k_psetatud_ja_karamelliseeritud_sibula_majoneesiga_9"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/moonStarter6" />
+
+            <CheckBox
+                android:text="@string/haugikotlet_tilli_aioli_vutimuna_ja_v_rskelt_marineeritud_kurgiga_10"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/moonStarter7" />
+
+            <CheckBox
+                android:text="@string/angerjas_suitsutatud_ja_hautatud_unaveinis_ning_peedi_kasukaga_13"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/moonStarter8" />
+
+            <CheckBox
+                android:text="@string/tatrapliinid_siiamarja_punase_sibula_ja_hapukoorega_12"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/moonStarter9" />
+
+            <CheckBox
+                android:text="@string/vutt_la_tabaka_bakla_aanisalati_ja_punases_stra_eleega_11"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/moonStarter10" />
+
+            <CheckBox
+                android:text="@string/a_la_tartar_ad_ika_marineeritud_k_nnuseente_ja_brioche_saiga_10"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/moonStarter11" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.16">
+            <Button
+                android:text="@string/desserts"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersMoonDessert" />
+            <Button
+                android:text="@string/main_course"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersMoonMain" />
+            <Button
+                android:text="@string/confirm"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersMoonPay" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kaks_kokka_starters"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pavel.foodel1.kaksKokka.KaksKokkaStarters"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="@string/starters"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kaksKokkaStarters"
+        android:textSize="20dp"
+        android:layout_weight="0.10" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.50">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:text="@string/sparglisalat_100_minuti_pardimuna_hollandi_kaste_kr_be_seanahk_9"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/kaksKokkaStarter1" />
+
+            <CheckBox
+                android:text="@string/matjes_heeringas_r_stpeedikreem_marineeritud_sibul_muld_9"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/kaksKokkaStarter2" />
+
+            <CheckBox
+                android:text="@string/kanamaks_s_rtsukurk_puuviljaleib_sibulamoos_9"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kaksKokkaStarter3" />
+
+            <CheckBox
+                android:text="@string/kuningservik_seenehundist_musta_k_slaugu_kreem_k_rvetatud_kurk_kitsejuustup_rlid_9"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/kaksKokkaStarter4" />
+
+            <CheckBox
+                android:text="@string/saarema_p_dra_b_ff_rnsoola_p_draliha_m_dar_igas_forellimari_suitsumunakollane_p_drasamblik_12"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/kaksKokkaStarter5" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.16">
+            <Button
+                android:text="@string/desserts"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersKaksKokkaDessert" />
+            <Button
+                android:text="@string/main_course"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersKaksKokkaMain" />
+            <Button
+                android:text="@string/confirm"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersKaksKokkaPay" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

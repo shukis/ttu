@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/truhvel_main_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pavel.foodel1.truhvel.TruhvelMainCourse"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:text="@string/main_course"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/truhvelMainCourse"
+        android:textSize="20dp"
+        android:layout_weight="0.10"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.50">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:text="@string/seene_risoto_metsaseened_parmesan_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:layout_marginTop="10dp"
+                android:id="@+id/truhvelMainCourse1" />
+
+            <CheckBox
+                android:text="@string/sinimerekarbid_sinimerekarbid_500g_v_ine_leem_rdid_12"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/truhvelMainCourse2" />
+
+            <CheckBox
+                android:text="@string/siig_praetud_siiafilee_fennel_paksoi_bisqueveloute_16"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/truhvelMainCourse3" />
+
+            <CheckBox
+                android:text="@string/tuunikala_grillitud_tuunikala_kartuli_spinatikreem_soja_soolarohi_16"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/truhvelMainCourse4" />
+
+            <CheckBox
+                android:text="@string/lambatall_madalal_t_k_psetatud_tallefilee_k_psetatud_pastinaak_kohvikaste_14"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/truhvelMainCourse5" />
+
+            <CheckBox
+                android:text="@string/marmor_veis_grillitud_marmorveis_frititud_kartul_sibulasalat_r_igas_20"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/truhvelMainCourse6" />
+
+            <CheckBox
+                android:text="@string/pardirind_suitsutatud_pardirinnafilee_peedikreem_p_rlsibul_punaveinikaste_14"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/truhvelMainCourse7" />
+
+            <CheckBox
+                android:text="@string/vege_l_tsekotlet_k_psetatud_pastinaak_kartuli_spinatikreem_jogurt_10"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/truhvelMainCourse8" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.16">
+
+            <Button
+                android:text="@string/starters"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonMainTruhvelStarters" />
+            <Button
+                android:text="@string/desserts"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonMainTruhvelDesserts" />
+            <Button
+                android:text="@string/confirm"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonMainTruhvelPay" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

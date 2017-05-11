@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/truhvel_starters"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pavel.foodel1.truhvel.TruhvelStarters"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/starters"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/truhvelStarters"
+        android:textSize="20dp"
+        android:layout_weight="0.10" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.50">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:text="@string/tuunikala_tuunikala_carpaccio_seesami_tuhk_marineeritud_spargel_soja_9"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/truhvelStarter1" />
+
+            <CheckBox
+                android:text="@string/tiigerkrevett_kreveti_ceviche_avokaadokreem_ampanja_elee_mango_coulis_r_stsai_9"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/truhvelStarter2" />
+
+            <CheckBox
+                android:text="@string/kitsejuust_k_psetatud_kitsejuust_peedid_vaarikasorbee_rabarber_8"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/truhvelStarter3" />
+
+            <CheckBox
+                android:text="@string/part_ja_kammkarp_praetud_kammkarbid_pardi_konsomee_seesam_austerservik_11"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/truhvelStarter4" />
+
+            <CheckBox
+                android:text="@string/vasikas_vasikaliha_l_igud_tuunikalakaste_pekileib_kappar_9"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/truhvelStarter5" />
+            <CheckBox
+                android:text="@string/p_der_p_draliha_tartar_suitsune_vutimuna_soolatud_kurk_r_stsai_10"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/fontColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/truhvelStarter6" />
+
+            <CheckBox
+                android:text="@string/caesari_salat_kanafilee_v_i_krevettidega_parmesan_k_slaugukrutoonid_9"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/truhvelStarter7" />
+
+            <CheckBox
+                android:text="@string/burrata_salat_itaalia_juust_burrata_tomatid_suitsupaprika_pesto_9"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/truhvelStarter8" />
+
+            <CheckBox
+                android:text="@string/nizza_salat_grillitud_tuunikala_oliivid_oad_p_ikesekuivatatud_tomatid_kapparid_kanamuna_9"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/fontColor"
+                android:layout_height="wrap_content"
+                android:id="@+id/truhvelStarter9" />
+
+            <CheckBox
+                android:text="@string/ramen_la_tr_hvel_pardi_konsomee_kanaliha_kanamuna_62_8_c_nuudlid_8"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontColor"
+                android:id="@+id/truhvelStarter10" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.16">
+            <Button
+                android:text="@string/desserts"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersTruhvelDessert" />
+            <Button
+                android:text="@string/main_course"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersTruhvelMain" />
+            <Button
+                android:text="@string/confirm"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonStartersTruhvelPay" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
