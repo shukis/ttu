@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.textView:
                 Intent restoran1 = new Intent(this, Chedi.class);
+                restoran1.putExtra("message3", "test");
                 restoran1.putExtra("message1", name);
                 restoran1.putExtra("message2",email);
                 startActivity(restoran1);
@@ -139,7 +140,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void clearFile() throws IOException {
         bw = new BufferedWriter(new OutputStreamWriter(openFileOutput(FILENAME,MODE_PRIVATE)));
         bw.close();
-        Log.d("file", "o4iwen");
     }
     public void setId(){
         textView1 = (TextView)findViewById(R.id.textView);
