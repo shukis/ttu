@@ -134,6 +134,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 restoran5.putExtra("message2",email);
                 startActivity(restoran5);
                 break;
+            case R.id.textView5:
+                Intent restoran5 = new Intent(this, Truhvel.class);
+                restoran5.putExtra("message1", name);
+                restoran5.putExtra("message2",email);
+                startActivity(restoran5);
+                break;
 
         }
     }
