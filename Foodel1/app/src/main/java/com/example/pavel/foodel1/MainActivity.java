@@ -105,7 +105,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.textView:
                 Intent restoran1 = new Intent(this, Chedi.class);
-                restoran1.putExtra("message3", "test");
                 restoran1.putExtra("message1", name);
                 restoran1.putExtra("message2",email);
                 startActivity(restoran1);
